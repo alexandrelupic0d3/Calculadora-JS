@@ -7,16 +7,18 @@ class Calculator{
     }
     //metodo de soma
         sum(n1,n2){
-            return = parseFloat=(n1) + parseFloat (n2)
+            return n1 + n2;
         }
-
-resolution(){
-    //nós jogamos parauma array uma string
-    let upperValuearray =  (this.upperValue.textContent).split("  ");
-    result = Calc.sum(upperValuearray[i - 1], upperValuearray[i + 1]);
 }
 
-}
+//Criando o objeto
+const calc = new Calculator;
+
+
+
 //start no btns
 let buttons = document.querySelectorAll('.btn');
 console.log(buttons);
+
+const resultado = calc.sum(1,2);
+console.log(resultado);
